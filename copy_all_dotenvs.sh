@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -ne 1 ]; then
+if [ $# -ne 2 ]; then
   echo "Usage: $0 /path/to/origin/directory /path/to/destination/directory"
   exit 1
 fi
